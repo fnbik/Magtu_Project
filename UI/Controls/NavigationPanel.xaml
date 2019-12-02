@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="UI.Controls.NavigationPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UI.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="800" d:DesignWidth="300">
+    <Grid>
+        <Rectangle HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="300">
+            <Rectangle.Fill>
+                <LinearGradientBrush>
+                    <GradientStop Color="#144046" Offset="1"/>
+                    <GradientStop Color="#3E6694" Offset="0"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill> 
+        </Rectangle>
+        <Image Width="18" Height="18" Source="/UI;component/Drawables/CloseButtonImage.png" VerticalAlignment="Top" HorizontalAlignment="Right"
+               Margin="5 5" MouseDown="CloseButton_Click"/>
+    </Grid>
+</UserControl>

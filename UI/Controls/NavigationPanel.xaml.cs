@@ -13,21 +13,21 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace UI
+namespace UI.Controls
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для NavigationPanel.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class NavigationPanel : UserControl
     {
-        public MainWindow()
+        public NavigationPanel()
         {
             InitializeComponent();
         }
 
-        private void DragPlace_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        private void CloseButton_Click(object sender, RoutedEventArgs e)
         {
-            this.DragMove();
+            Environment.Exit(0);
         }
     }
 }
