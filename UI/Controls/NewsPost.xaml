@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="UI.Controls.NewsPost"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:UI.Controls"
+             mc:Ignorable="d" 
+             d:DesignWidth="800" Margin="0 0 0 10">
+    <Grid>
+        <Border VerticalAlignment="Top" HorizontalAlignment="Left" Background="White" CornerRadius="10" Margin="5,0,0,0">
+            <Grid>
+                <Border Width="30" Height="30" Background="#2787B7" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10"/>
+                <Label Name="TitlePost" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="40 5 0 0" Foreground="#4C6173"
+                       FontSize="20" FontFamily="/UI;component/Fonts/#Amsterdam" >Внимание кураторов!</Label>
+                <Label Name="InfoPost" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="40 25 0 0" Foreground="#4C6173"
+                       FontSize="12" FontFamily="/UI;component/Fonts/#Amsterdam">от Татьяна Владимировна Зотова - Среда 20 11 2019, 15:52</Label>
+                <Rectangle Width="930" Height="1" Fill="#B8B8B8" VerticalAlignment="Top" HorizontalAlignment="Center" Margin=" 10 50 10 0"/>
+                <TextBlock Name="ContentPost" VerticalAlignment="Top" Margin="10 60 10 10" TextWrapping="Wrap"
+                           FontSize="16" FontFamily="/UI;component/Fonts/#Amsterdam"/>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

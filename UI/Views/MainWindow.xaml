@@ -15,51 +15,9 @@
         <controls:NavigationPanel Grid.ColumnSpan="2" Grid.RowSpan="2" HorizontalAlignment="Right"
                                   VerticalAlignment="Stretch" Width="300" Height="800"/>
 
-        <ScrollViewer Margin="0,20,300,0">
+        <ScrollViewer Name="ContentMain" Margin="0,20,300,0">
             <StackPanel Orientation="Vertical">
                 <Border Width="960" Height="300" VerticalAlignment="Top" HorizontalAlignment="Left" Background="White" CornerRadius="10" Margin="5,0,0,0">
-                    <Grid>
-                        <Border Width="30" Height="30" Background="#2787B7" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10"/>
-                        <Label VerticalAlignment="Top" HorizontalAlignment="Left" Margin="40 5 0 0" Foreground="#4C6173"
-                       FontSize="20" FontFamily="/UI;component/Fonts/#Amsterdam" >Внимание кураторов!</Label>
-                        <Label VerticalAlignment="Top" HorizontalAlignment="Left" Margin="40 25 0 0" Foreground="#4C6173"
-                       FontSize="12" FontFamily="/UI;component/Fonts/#Amsterdam">от Татьяна Владимировна Зотова - Среда 20 11 2019, 15:52</Label>
-                        <Rectangle Width="930" Height="1" Fill="#B8B8B8" VerticalAlignment="Top" HorizontalAlignment="Center" Margin=" 10 50 10 0"/>
-                        <TextBlock Width="930" Height="200" VerticalAlignment="Top" Margin="0 60 0 0" TextWrapping="Wrap" FontSize="16" FontFamily="/UI;component/Fonts/#Amsterdam"
-                           >
-                    Уважаемые кураторы, согласно пункту 8.6 СМК-О-ПВД-149-18 Электронное портфолио обучающегося от 26.09.2018 г., 
-                    просим вас в срок до 9.12.2019 г.
-                    проверить корректность заполненных портфолио курируемых групп.
-                    8.6 Куратор группы / классный руководитель несет ответственность за:
-                    − регулярный контроль (не реже 1 раза в семестр) наполнения портфолио обучающихся с точки зрения корректности представленной информации,
-                    а также перед его выходом на государственную итоговую аттестацию.
-                    Доступ к портфолио осуществляется через Электронный кабинет/Кабинет куратора.
-                        </TextBlock>
-                    </Grid>
-                </Border>
-
-                <Border Width="960" Height="300" VerticalAlignment="Top" HorizontalAlignment="Left" Background="White" CornerRadius="10" Margin="5,30,0,0">
-                    <Grid>
-                        <Border Width="30" Height="30" Background="#2787B7" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10"/>
-                        <Label VerticalAlignment="Top" HorizontalAlignment="Left" Margin="40 5 0 0" Foreground="#4C6173"
-                       FontSize="20" FontFamily="/UI;component/Fonts/#Amsterdam" >Внимание кураторов!</Label>
-                        <Label VerticalAlignment="Top" HorizontalAlignment="Left" Margin="40 25 0 0" Foreground="#4C6173"
-                       FontSize="12" FontFamily="/UI;component/Fonts/#Amsterdam">от Татьяна Владимировна Зотова - Среда 20 11 2019, 15:52</Label>
-                        <Rectangle Width="930" Height="1" Fill="#B8B8B8" VerticalAlignment="Top" HorizontalAlignment="Center" Margin=" 10 50 10 0"/>
-                        <TextBlock Width="930" Height="200" VerticalAlignment="Top" Margin="0 60 0 0" TextWrapping="Wrap" FontSize="16" FontFamily="/UI;component/Fonts/#Amsterdam"
-                           >
-                    Уважаемые кураторы, согласно пункту 8.6 СМК-О-ПВД-149-18 Электронное портфолио обучающегося от 26.09.2018 г., 
-                    просим вас в срок до 9.12.2019 г.
-                    проверить корректность заполненных портфолио курируемых групп.
-                    8.6 Куратор группы / классный руководитель несет ответственность за:
-                    − регулярный контроль (не реже 1 раза в семестр) наполнения портфолио обучающихся с точки зрения корректности представленной информации,
-                    а также перед его выходом на государственную итоговую аттестацию.
-                    Доступ к портфолио осуществляется через Электронный кабинет/Кабинет куратора.
-                        </TextBlock>
-                    </Grid>
-                </Border>
-
-                <Border Width="960" Height="300" VerticalAlignment="Top" HorizontalAlignment="Left" Background="White" CornerRadius="10" Margin="5,30,0,0">
                     <Grid>
                         <Border Width="30" Height="30" Background="#2787B7" CornerRadius="50" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="10"/>
                         <Label VerticalAlignment="Top" HorizontalAlignment="Left" Margin="40 5 0 0" Foreground="#4C6173"
