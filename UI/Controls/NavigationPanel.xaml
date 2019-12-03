@@ -23,27 +23,27 @@
             </Border.Effect>
         </Border>
         <TextBlock Text="Вход" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 140 0 0"
-                   Foreground="#E3E5EC" Style="{StaticResource Cleanversiting}" FontWeight="Bold" FontSize="18"/>
+                   Foreground="#E3E5EC"  FontWeight="Bold" FontSize="18" FontFamily="/UI;component/Fonts/#Amsterdam"/>
         
         <TextBlock Text="ВЫЙТИ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 210 0 0"
-                   Foreground="#E3E5EC" Style="{StaticResource Cleanversiting}" FontSize="18"/>
+                   Foreground="#E3E5EC" FontSize="18" FontFamily="/UI;component/Fonts/#Cleanvertising"/>
 
         <TextBlock Text="НОВОСТИ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 255 0 0"
-                   Foreground="#E3E5EC" Style="{StaticResource Cleanversiting}" FontSize="18"/>
+                   Foreground="#E3E5EC" FontSize="18" FontFamily="/UI;component/Fonts/#Cleanvertising"/>
 
         <TextBlock Text="КУРСЫ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 300 0 0"
-                   Foreground="#E3E5EC" Style="{StaticResource Cleanversiting}" FontSize="18"/>
+                   Foreground="#E3E5EC" FontSize="18" FontFamily="/UI;component/Fonts/#Cleanvertising"/>
 
         <TextBlock Text="СПЕЦИАЛЬНОСТИ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 345 0 0"
-                   Foreground="#E3E5EC" Style="{StaticResource Cleanversiting}" FontSize="18"/>
+                   Foreground="#E3E5EC" FontSize="18" FontFamily="/UI;component/Fonts/#Cleanvertising"/>
 
         <TextBlock Text="РАСПИСАНИЕ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 390 0 0"
-                   Foreground="#E3E5EC" Style="{StaticResource Cleanversiting}" FontSize="18"/>
+                   Foreground="#E3E5EC" FontSize="18" FontFamily="/UI;component/Fonts/#Cleanvertising"/>
 
         <TextBlock Text="О КОЛЛЕДЖЕ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 435 0 0"
-                   Foreground="#E3E5EC" Style="{StaticResource Cleanversiting}" FontSize="18"/>
+                   Foreground="#E3E5EC" FontSize="18" FontFamily="/UI;component/Fonts/#Cleanvertising"/>
 
         <TextBlock Text="О приложении" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0 0 0 10"
-                   Foreground="#E3E5EC" Style="{StaticResource Cleanversiting}" FontSize="18"/>
+                   Foreground="#E3E5EC" FontSize="18" FontFamily="/UI;component/Fonts/#Cleanvertising"/>
     </Grid>
 </UserControl>
