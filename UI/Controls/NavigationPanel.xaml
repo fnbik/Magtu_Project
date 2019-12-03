@@ -17,5 +17,7 @@
         </Rectangle>
         <Image Width="18" Height="18" Source="/UI;component/Drawables/CloseButtonImage.png" VerticalAlignment="Top" HorizontalAlignment="Right"
                Margin="5 5" MouseDown="CloseButton_Click"/>
+        <Border Width="80" Height="80" CornerRadius="50" Background="#F3F6FF" VerticalAlignment="Top" Margin="0 50 0 0" />
+        
     </Grid>
 </UserControl>
