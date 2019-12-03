@@ -98,6 +98,7 @@
     </EmbeddedResource>
     <Resource Include="Fonts\CLEANVEB.TTF" />
     <Resource Include="Fonts\CLEANVEL.TTF" />
+    <Resource Include="Fonts\12905.otf" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

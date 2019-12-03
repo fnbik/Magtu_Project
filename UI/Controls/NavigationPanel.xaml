@@ -23,7 +23,7 @@
             </Border.Effect>
         </Border>
         <TextBlock Text="Вход" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 140 0 0"
-                   Foreground="#E3E5EC" Style="{StaticResource Cleanversiting}" FontWeight="Bold"/>
+                   Foreground="#E3E5EC" Style="{StaticResource Cleanversiting}" FontWeight="Bold" FontSize="18"/>
         
         <TextBlock Text="ВЫЙТИ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 210 0 0"
                    Foreground="#E3E5EC" Style="{StaticResource Cleanversiting}" FontSize="18"/>

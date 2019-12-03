@@ -8,5 +8,9 @@
             <Setter Property="TextElement.FontFamily"
                     Value="pack://application:,,,/Fonts/#Cleanvertising"/>
         </Style>
+        <Style x:Key="Amsterdam">
+            <Setter Property="TextElement.FontFamily"
+                    Value="pack://application:,,,,/Fonts/#Amsterdam"/>
+        </Style>
     </Application.Resources>
 </Application>
