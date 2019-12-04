@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="800" d:DesignWidth="300">
     <Grid>
-        <Rectangle HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="300">
+        <Rectangle HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="300" Panel.ZIndex="-2">
             <Rectangle.Fill>
                 <LinearGradientBrush>
                     <GradientStop Color="#144046" Offset="1"/>
@@ -25,25 +25,27 @@
         <TextBlock Text="Вход" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 140 0 0"
                    Foreground="#E3E5EC"  FontWeight="Bold" FontSize="18" FontFamily="/UI;component/Fonts/#Amsterdam"/>
         
-        <TextBlock Text="ВЫЙТИ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 210 0 0"
+        <TextBlock Name="LogoutButton" Text="ВЫЙТИ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 210 0 0"
                    Foreground="#E3E5EC" FontSize="18" FontFamily="/UI;component/Fonts/#Cleanvertising"/>
 
-        <TextBlock Text="НОВОСТИ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 255 0 0"
+        <TextBlock Name="NewsButton" Text="НОВОСТИ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 255 0 0"
                    Foreground="#E3E5EC" FontSize="18" FontFamily="/UI;component/Fonts/#Cleanvertising"/>
 
-        <TextBlock Text="КУРСЫ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 300 0 0"
+        <TextBlock Name="CoursesButton" Text="КУРСЫ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 300 0 0"
                    Foreground="#E3E5EC" FontSize="18" FontFamily="/UI;component/Fonts/#Cleanvertising"/>
 
-        <TextBlock Text="СПЕЦИАЛЬНОСТИ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 345 0 0"
+        <TextBlock Name="CpecialsButton" Text="СПЕЦИАЛЬНОСТИ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 345 0 0"
                    Foreground="#E3E5EC" FontSize="18" FontFamily="/UI;component/Fonts/#Cleanvertising"/>
 
-        <TextBlock Text="РАСПИСАНИЕ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 390 0 0"
+        <TextBlock Name="ScheduleButton" Text="РАСПИСАНИЕ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 390 0 0"
                    Foreground="#E3E5EC" FontSize="18" FontFamily="/UI;component/Fonts/#Cleanvertising"/>
 
-        <TextBlock Text="О КОЛЛЕДЖЕ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 435 0 0"
+        <TextBlock Name="AboutCollegeButton" Text="О КОЛЛЕДЖЕ" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 435 0 0"
                    Foreground="#E3E5EC" FontSize="18" FontFamily="/UI;component/Fonts/#Cleanvertising"/>
 
-        <TextBlock Text="О приложении" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0 0 0 10"
+        <TextBlock Name="AboutAppButton" Text="О приложении" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0 0 0 10"
                    Foreground="#E3E5EC" FontSize="18" FontFamily="/UI;component/Fonts/#Cleanvertising"/>
+        <Rectangle Name="SelectZone" Height="40" VerticalAlignment="Top" HorizontalAlignment="Stretch" Fill="#F3F6FF" Margin="0"
+                   Panel.ZIndex="-1"/>
     </Grid>
 </UserControl>

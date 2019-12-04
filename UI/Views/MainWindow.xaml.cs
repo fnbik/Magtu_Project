@@ -12,8 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Threading;
 using Model;
 using UI.Controls;
+using UI.ViewModels;
 
 namespace UI
 {
@@ -24,36 +26,28 @@ namespace UI
     {
         ScrollViewer _content { get; set; }
 
-        string _address = @"https://newlms.magtu.ru/";
-
         public MainWindow()
         {
             InitializeComponent();
 
             _content = ContentMain;
 
-            PresentNews();
+            NavPanel.SelectZone.Margin = new Thickness(0, NavPanel.NewsButton.Margin.Top - 10, 0, 0);
+            NavPanel.NewsButton.Foreground = new SolidColorBrush(Color.FromArgb(0xFF, 0x2A, 0x2C, 0x44));
         }
 
-        public void PresentNews()
-        {
-
-            var task = Task.Run(() => ParserHtml.ParseNews(_address));
-            task.Wait();
-
-            News[] news = task.Result;
-            StackPanel newsPanel = new StackPanel() {Orientation=Orientation.Vertical};
-            for (int i = 0; i < news.Length; i++)
-            {
-                NewsPost post = new NewsPost(news[i].Title, news[i].Author, news[i].Content.ToString());
-                newsPanel.Children.Add(post);
-            }
-            _content.Content = newsPanel;
-        }
+        
 
         private void DragPlace_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             this.DragMove();
+        }
+
+        private void ContentMain_Loaded(object sender, RoutedEventArgs e)
+        {
+            var vm = DataContext as MainViewModel;
+            if (vm == null) return;
+            Dispatcher.InvokeAsync(vm.PresentNews, System.Windows.Threading.DispatcherPriority.Background);
         }
     }
 }
